@@ -116,7 +116,7 @@ body {
 .card.is-date {
   background:
     linear-gradient(rgba(20, 15, 23, 0.90), rgba(20, 15, 23, 0.93)),
-    url("images/date-bg.jpg") center / cover no-repeat,
+    url("images/sasha.jpg") center / cover no-repeat,
     var(--glass);
 }
 
