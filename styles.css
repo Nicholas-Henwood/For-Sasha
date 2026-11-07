@@ -366,27 +366,13 @@ input[type="date"].field {
   text-align: center;
   color: var(--rose);
   font-size: 0.9rem;
-  margin-top: 14px;
-  min-height: 18px;
+  margin-top: 10px;
+  min-height: 0;
   font-weight: 500;
   white-space: pre-line;
 }
 
 /* Instagram follow call-to-action */
-.insta {
-  margin-top: 28px;
-  padding-top: 22px;
-  border-top: 1px solid var(--glass-brd);
-  text-align: center;
-}
-.insta-kicker {
-  display: block;
-  margin-bottom: 14px;
-  color: var(--muted);
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
 .btn-insta {
   display: flex;
   align-items: center;
@@ -407,7 +393,8 @@ input[type="date"].field {
 .btn-insta:hover { transform: translateY(-2px) scale(1.02); box-shadow: 0 16px 44px rgba(214, 41, 118, 0.65); }
 .insta-icon { width: 34px; height: 34px; flex: none; }
 .insta-quote {
-  margin: 16px 4px 0;
+  margin: 12px 4px 0;
+  text-align: center;
   font-family: "Caveat", cursive;
   font-size: 1.5rem;
   line-height: 1.25;
